@@ -2,7 +2,7 @@
 
 在进行push代码时候，报错：413 Request entity too large，由于推送的代码体量有四百多兆，远程服务直接挂起，所以尝试将http协议切换成ssh进行尝试解决。如图：
 
-![报错内容](https://github.com/dushihao/dayDayNotes/blob/master/%E5%BC%80%E5%8F%91%E6%97%A5%E5%B8%B8/source/errormessage.png) 
+![报错内容](https://github.com/dushihao/dayDayNotes/blob/master/DailyDevelopment/source/errormessage.png) 
 
 ## 开始进行尝试
 
