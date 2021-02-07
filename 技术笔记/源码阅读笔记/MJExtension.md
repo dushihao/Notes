@@ -2,7 +2,7 @@
 
 #### 获取成员属性类型
 
-#####MJProperty 
+##### MJProperty 
 
 作者通过面向对象的思想，封装到了两个自定义类中：`MJProperty` 和 `MJPropertyType`  ，`MJPropertyType`  中的 **typeClass** 描述的就是成员属性类型， 其中也涉及到 `runtime ` 的应用 ：
 
