@@ -28,7 +28,7 @@ Block 被提交后，调用这个`function` 总会立即返回并且不用等待
 
 **共同点** 
 
-都是会将先执行 `barrier` 函数前，追加到 `concurrent queue` 的任务，然后在执行barrier函数中的任务，然后再执行之后追加到`concurrent queue`中的任务
+都是会将先执行 `barrier` 函数前，追加到 `concurrent queue` 的任务，然后再执行barrier函数中的任务，然后再执行之后追加到`concurrent queue`中的任务
 
 **不同点**
 
