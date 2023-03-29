@@ -27,4 +27,4 @@ Q: 分类如何添加弱引用属性
 
 A: [Associated Object 介绍](https://sunsetroads.github.io/2020/03/22/weak-associated-object/)
 
-在关联对象中通过中间层__weak关键字和block、或者一个包装类去实现。
+在关联对象中通过中间层__weak关键字和block、或者用一个包装类去实现。
