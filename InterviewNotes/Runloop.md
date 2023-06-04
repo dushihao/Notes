@@ -1,3 +1,19 @@
+
+
+[RunLoop 的概念](https://blog.ibireme.com/2015/05/18/runloop/#base)
+
+
+
+在 Core Foundation 框架中，CFRunLoopSourceRef 是 RunLoop 事件源的抽象对象，在使用时需要指定该事件源的类型，分为 kCFRunLoopSourceTypeCustom 和 kCFRunLoopSourceTypeMachPort 两种类型。
+
+Source分为两种：
+
+Source0：非基于Port的 用于用户主动触发的事件（点击button 或点击屏幕）
+Source1：基于Port的 通过内核和其他线程相互发送消息（与内核相关）
+注意：Source1在处理的时候会分发一些操作给Source0去处理，例如 UIButton点击事件（可以查看上方链接评论区的讨论）
+
+
+
 RunLoop主要有以下几个组成部分：
 
 1. Input Source（输入源）：输入源是RunLoop的事件来源，例如触摸事件、网络请求、定时器等。当有事件发生时，RunLoop会从输入源中获取事件并进行处理。
@@ -10,6 +26,7 @@ RunLoop主要有以下几个组成部分：
 
 
 
-Q：是否可以自定义 Mode
+Q: UIButton 触摸事件
 
-A：略...
+
+
