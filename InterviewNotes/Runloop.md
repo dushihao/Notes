@@ -8,8 +8,8 @@
 
 Source分为两种：
 
-Source0：非基于Port的 用于用户主动触发的事件（点击button 或点击屏幕）
-Source1：基于Port的 通过内核和其他线程相互发送消息（与内核相关）
+Source0：非基于Port的 用于用户主动触发的事件（点击button 或点击屏幕）<br>
+Source1：基于Port的 通过内核和其他线程相互发送消息（与内核相关）<br>
 注意：Source1在处理的时候会分发一些操作给Source0去处理，例如 UIButton点击事件（可以查看上方链接评论区的讨论）
 
 
